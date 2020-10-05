@@ -77,6 +77,7 @@ public class ExerciseIntroTesting {
 
         for (int i = 0; i < x.length; i++)
         {
+            System.out.println(x[i]%2);
             if (x[i]%2 == 1 || x[i] > 0)
             {
                 count++;
